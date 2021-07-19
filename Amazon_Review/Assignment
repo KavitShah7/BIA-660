@@ -1,0 +1,13 @@
+- Create a script called amazon.py
+
+- The script should include a function called scrape().
+
+- The function should accept a single parameter: the link to an amazon product.
+
+Example:
+
+https://www.amazon.com/Sennheiser-Momentum-Cancelling-Headphones-Functionality/dp/B07VW98ZKG (Links to an external site.)
+
+- The function should create a csv file called reviews.csv (use the csv library to create it)
+
+- The file should include include all the reviews for the product. One review per line, two comma-separated fields per line: text, number of stars.
